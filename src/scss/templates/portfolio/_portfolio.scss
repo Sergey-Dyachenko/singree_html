@@ -1,0 +1,62 @@
+@import "../../const";
+
+.title-page-block{
+  display: block;
+  text-align: center;
+
+}
+.title-page-block__title{
+  padding: 102px 0px 120px 0px;
+  text-align: center;
+  font-size: $h1_portfolio_title_size;
+}
+
+ul.gallery-titles-block, ul.services-titles-block{
+  display: inline-block;
+}
+
+li.gallery-title-item, li.services-title-item{
+  display: inline-block;
+  float: left;
+  padding: 0px 45px;
+  border-right: 1px solid #ccc;
+}
+
+a.gallery-title-item__link {
+  color: $gallery_title_color;
+  text-transform: uppercase;
+  font-size:$gallery_title_size;
+}
+
+.gallery-row{
+  margin-bottom: 30px;
+}
+
+.border-top{
+  border-top:1px solid #d4d8d8;
+  padding-top: 30px;
+}
+
+.border-bottom{
+  border-bottom:1px solid #d4d8d8;
+  margin-bottom: 30px;
+}
+
+.text-block-gallery{
+  margin:185px 0px;
+
+
+  & .text-block-gallery__title{
+    font-size: $h1font-size;
+    text-align: center;
+  }
+
+  & .text-block-gallery__paragrah{
+
+  }
+
+}
+
+
+
+

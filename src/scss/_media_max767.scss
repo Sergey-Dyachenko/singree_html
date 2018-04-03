@@ -1,0 +1,33 @@
+@media (max-width: 767px) {
+nav{
+
+      height: auto;
+    .show{
+      background: #ffffff;
+    }
+
+    li{
+          padding: 0px;
+    }
+    .logo-block{
+      margin-top: 0px;
+    }
+    .logo-block__img{
+      width:50%;
+    }
+  }
+.background-block{
+  display: none;
+}
+  .background-block-lite{
+    display: none;
+  }
+  .review-block__img {
+    padding: 0px;
+  }
+
+  .custom-header-box__img{
+    margin-top: 22px;
+  }
+
+}
