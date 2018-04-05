@@ -1,5 +1,35 @@
-@media (min-width: 1430px) {
-  .container {
-    max-width: 1400px;
+.nav-top-block {
+  background-color: $blue_color;
+  color: $white_color;
+
+  navbar{
+    padding: 0px;
   }
 }
+
+nav-block__nav-item{
+  display: flex;
+}
+
+.navbar-expand-md {
+
+  .nav-block {
+
+    a.nav-block__nav-link {
+      text-transform: uppercase;
+      color: $white_color;
+      font-size: 14px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+  }
+
+}
+
+
+
+
+
+

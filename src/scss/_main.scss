@@ -1,3 +1,16 @@
+body{
+  color:$white_color;
+  background-color: $white_color;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+@media (min-width: 1430px) {
+  .container {
+    max-width: 1400px;
+  }
+}
+
 
 
 

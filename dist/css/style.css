@@ -33,6 +33,29 @@
   font-style: normal;
   font-weight: normal; }
 
+.nav-top-block {
+  background-color: #2f358a;
+  color: #fff; }
+  .nav-top-block navbar {
+    padding: 0px; }
+
+nav-block__nav-item {
+  display: flex; }
+
+.navbar-expand-md .nav-block a.nav-block__nav-link {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem; }
+
+body {
+  color: #fff;
+  background-color: #fff;
+  font-family: "Segoe UI", sans-serif; }
+
 @media (min-width: 1430px) {
   .container {
     max-width: 1400px; } }
