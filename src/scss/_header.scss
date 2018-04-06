@@ -14,11 +14,16 @@
   }
 }
 
-nav-block__nav-item{
+nav-block__nav-item {
   display: flex;
 }
 
-.navbar-expand-md {
+  .flag-block{
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar-expand-md {
 
   .navbar-collaps{
     justify-content: flex-end;
@@ -26,18 +31,31 @@ nav-block__nav-item{
 
   .nav-block {
 
+
+
     a.nav-block__nav-link {
       text-transform: uppercase;
       color: $white_color;
       font-size: 14px;
-      padding-left: 1rem;
-      padding-right: 1rem;
       padding-top: 0.5rem;
       padding-bottom: 0.5rem;
     }
   }
 
 }
+
+  .nav-main-menu-block{
+    font-size: 24px;
+    color:$blue_color;
+    text-transform: uppercase;
+    font-family: SegoeUILight;
+    font-weight: bold;
+
+    .btn{
+      font-size: 22px;
+    }
+
+  }
 
 
 

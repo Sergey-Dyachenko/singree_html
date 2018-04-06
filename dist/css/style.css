@@ -45,6 +45,10 @@
 nav-block__nav-item {
   display: flex; }
 
+.flag-block {
+  display: flex;
+  align-items: center; }
+
 .navbar-expand-md .navbar-collaps {
   justify-content: flex-end; }
 
@@ -52,10 +56,17 @@ nav-block__nav-item {
   text-transform: uppercase;
   color: #fff;
   font-size: 14px;
-  padding-left: 1rem;
-  padding-right: 1rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem; }
+
+.nav-main-menu-block {
+  font-size: 24px;
+  color: #2f358a;
+  text-transform: uppercase;
+  font-family: SegoeUILight;
+  font-weight: bold; }
+  .nav-main-menu-block .btn {
+    font-size: 22px; }
 
 body {
   color: #fff;
