@@ -63,8 +63,7 @@ nav-block__nav-item {
   font-size: 24px;
   color: #2f358a;
   text-transform: uppercase;
-  font-family: SegoeUILight;
-  font-weight: bold; }
+  font-family: SegoeUILight; }
   .nav-main-menu-block .btn {
     font-size: 22px; }
 
@@ -76,3 +75,10 @@ body {
 @media (min-width: 1430px) {
   .container {
     max-width: 1400px; } }
+
+.make-diff-block {
+  padding: 33px 37px 40px 75px;
+  background-color: #2f358a; }
+  .make-diff-block h1 {
+    font-size: 66px;
+    color: #fff; }
