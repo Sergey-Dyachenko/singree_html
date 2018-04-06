@@ -1,3 +1,10 @@
+
+  .navbar-expand-md .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+
+
 .nav-top-block {
   background-color: $blue_color;
   color: $white_color;
@@ -12,6 +19,10 @@ nav-block__nav-item{
 }
 
 .navbar-expand-md {
+
+  .navbar-collaps{
+    justify-content: flex-end;
+  }
 
   .nav-block {
 

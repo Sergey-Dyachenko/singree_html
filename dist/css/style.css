@@ -33,6 +33,9 @@
   font-style: normal;
   font-weight: normal; }
 
+.navbar-expand-md .navbar-collapse {
+  justify-content: flex-end; }
+
 .nav-top-block {
   background-color: #2f358a;
   color: #fff; }
@@ -41,6 +44,9 @@
 
 nav-block__nav-item {
   display: flex; }
+
+.navbar-expand-md .navbar-collaps {
+  justify-content: flex-end; }
 
 .navbar-expand-md .nav-block a.nav-block__nav-link {
   text-transform: uppercase;
