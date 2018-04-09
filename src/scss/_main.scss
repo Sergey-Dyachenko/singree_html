@@ -38,7 +38,7 @@ body{
   }
 }
 
-.excerption-section-block{
+.excerption-section-block, .webelieve1-section-block{
   .excerption-section-block__text{
     color: $blue_color;
     padding: 150px 0px;
@@ -93,9 +93,16 @@ body{
  .ourteam-section-block__textarea{
    padding: 50px 40px 70px 18px;
 
-
-
+   a.read-more-link{
+      display:block ;
+      text-align: right;
+      font-size: 14px;
+      color: #ffffff;
+      text-decoration: underline;
+      margin-bottom: 1rem;
+   }
  }
+
 
 
 }
