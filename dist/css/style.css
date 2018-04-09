@@ -76,9 +76,62 @@ body {
   .container {
     max-width: 1400px; } }
 
-.make-diff-block {
-  padding: 33px 37px 40px 75px;
+.no-gutters .make-diff-block {
+  padding: 35px 30px 70px 30px;
   background-color: #2f358a; }
-  .make-diff-block h1 {
-    font-size: 66px;
-    color: #fff; }
+  .no-gutters .make-diff-block h1 {
+    font-size: 63px;
+    color: #fff;
+    margin-bottom: 3.75rem; }
+  .no-gutters .make-diff-block p {
+    margin-bottom: 2.5rem; }
+  .no-gutters .make-diff-block a.learn-more-btn {
+    background-color: #fec200;
+    color: #fff;
+    padding: 17px 143px 17px 10px;
+    font-size: 24px; }
+  .no-gutters .make-diff-block::after {
+    content: '\25bc';
+    padding-left: 0rem; }
+
+.excerption-section-block .excerption-section-block__text {
+  color: #2f358a;
+  padding: 150px 0px;
+  font-size: 48px;
+  font-family: SegoeUILight;
+  font-style: italic; }
+
+.about-section-block {
+  background-color: #00923f;
+  border-bottom: 1px solid #fff; }
+  .about-section-block .about-section-block__text {
+    padding: 40px 40px 25px 25px;
+    color: #ffffff;
+    font-size: 16px; }
+    .about-section-block .about-section-block__text .title {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #fff;
+      margin-bottom: 1.25em; }
+    .about-section-block .about-section-block__text full-text {
+      margin-bottom: 1.563rem; }
+    .about-section-block .about-section-block__text .read-more {
+      text-align: right;
+      text-decoration: underline;
+      display: block;
+      color: #ffffff;
+      font-size: 14px; }
+
+.ourteam-section-block {
+  background-color: #00923f; }
+  .ourteam-section-block .ourteam-section-block__img {
+    padding: 20px 25px 35px 33PX; }
+    .ourteam-section-block .ourteam-section-block__img .title {
+      font-size: 14px;
+      margin-bottom: 1.563rem;
+      text-transform: uppercase; }
+    .ourteam-section-block .ourteam-section-block__img .credentials {
+      margin-bottom: 0.625rem;
+      font-style: italic; }
+  .ourteam-section-block .ourteam-section-block__textarea {
+    padding: 50px 40px 70px 18px; }

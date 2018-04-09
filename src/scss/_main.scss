@@ -11,16 +11,94 @@ body{
   }
 }
 
+.no-gutters {
 
-.make-diff-block{
-  padding:33px 37px 40px 75px;
-  background-color: $blue_color;
-  h1{
-    font-size: 66px;
-    color:$white_color;
-   }
+  .make-diff-block {
+    padding: 35px 30px 70px 30px;
+    background-color: $blue_color;
+    h1 {
+      font-size: 63px;
+      color: $white_color;
+      margin-bottom: 3.75rem;
+    }
+    p {
+      margin-bottom: 2.5rem;
+    }
+    a.learn-more-btn {
+      background-color: #fec200;
+      color: #fff;
+      padding: 17px 143px 17px 10px;
+      font-size: 24px;
+    }
+    &::after {
+      content: '\25bc';
+      padding-left: 0rem;
+    }
+
+  }
 }
 
+.excerption-section-block{
+  .excerption-section-block__text{
+    color: $blue_color;
+    padding: 150px 0px;
+    font-size: 48px;
+    font-family: SegoeUILight;
+    font-style: italic;
+  }
+}
+
+.about-section-block{
+  background-color: $green_color;
+  border-bottom: 1px solid $white_color;
+  .about-section-block__text{
+    padding: 40px 40px 25px 25px;
+    color: #ffffff;
+    font-size: 16px;
+    .title{
+      font-size: 14px;
+      text-transform: uppercase;
+      color: $white_color;
+      margin-bottom: 1.25em;
+    }
+    full-text{
+      margin-bottom:1.563rem ;
+    }
+    .read-more{
+      text-align: right;
+      text-decoration: underline;
+      display: block;
+      color: #ffffff;
+      font-size: 14px;
+    }
+  }
+}
+
+.ourteam-section-block{
+  background-color: $green_color;
+  .ourteam-section-block__img{
+    padding: 20px 25px 35px 33PX;
+
+  .title{
+    font-size: 14px;
+    margin-bottom:1.563rem ;
+    text-transform: uppercase;
+  }
+
+  .credentials{
+    margin-bottom: 0.625rem;
+    font-style: italic;
+  }
+ }
+ .ourteam-section-block__textarea{
+   padding: 50px 40px 70px 18px;
+
+
+
+ }
+
+
+}
 
 
 
