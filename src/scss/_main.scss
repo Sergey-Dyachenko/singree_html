@@ -38,7 +38,7 @@ body{
   }
 }
 
-.excerption-section-block, .webelieve1-section-block{
+.excerption-section-block, .webelieve1-section-block, .webelieve2-section-block{
   .excerption-section-block__text{
     color: $blue_color;
     padding: 150px 0px;
@@ -107,5 +107,52 @@ body{
 
 }
 
+.no-gutters {
+  .brazil-on-wheels {
+    padding: 35px 30px 70px 30px;
+    background-color: $yellow_color;
+    h1 {
+      font-size: 63px;
+      color: $white_color;
+      margin-bottom: 3.75rem;
+    }
+    p.brazil-on-wheels__text {
+      margin-bottom: 7.8125rem;
+    }
+    a.learn-more-btn {
+      background-color: $green_color;
+      color: #fff;
+      padding: 17px 143px 17px 10px;
+      font-size: 24px;
+    }
+    &::after {
+      content: '\25bc';
+      padding-left: 0rem;
+    }
 
+  }
+  .lar-dos-velhinhos{
+    padding: 35px 30px 70px 30px;
+    background-color: $green_color;
+    h1 {
+      font-size: 63px;
+      color: $white_color;
+      margin-bottom: 3.75rem;
+    }
+    p.brazil-on-wheels__text {
+      margin-bottom: 7.8125rem;
+    }
+    a.learn-more-btn {
+      background-color: $yellow_color;
+      color: #fff;
+      padding: 17px 143px 17px 10px;
+      font-size: 24px;
+    }
+    &::after {
+      content: '\25bc';
+      padding-left: 0rem;
+    }
+
+  }
+}
 

@@ -94,7 +94,7 @@ body {
     content: '\25bc';
     padding-left: 0rem; }
 
-.excerption-section-block .excerption-section-block__text, .webelieve1-section-block .excerption-section-block__text {
+.excerption-section-block .excerption-section-block__text, .webelieve1-section-block .excerption-section-block__text, .webelieve2-section-block .excerption-section-block__text {
   color: #2f358a;
   padding: 150px 0px;
   font-size: 48px;
@@ -142,3 +142,39 @@ body {
       color: #ffffff;
       text-decoration: underline;
       margin-bottom: 1rem; }
+
+.no-gutters .brazil-on-wheels {
+  padding: 35px 30px 70px 30px;
+  background-color: #fec200; }
+  .no-gutters .brazil-on-wheels h1 {
+    font-size: 63px;
+    color: #fff;
+    margin-bottom: 3.75rem; }
+  .no-gutters .brazil-on-wheels p.brazil-on-wheels__text {
+    margin-bottom: 7.8125rem; }
+  .no-gutters .brazil-on-wheels a.learn-more-btn {
+    background-color: #00923f;
+    color: #fff;
+    padding: 17px 143px 17px 10px;
+    font-size: 24px; }
+  .no-gutters .brazil-on-wheels::after {
+    content: '\25bc';
+    padding-left: 0rem; }
+
+.no-gutters .lar-dos-velhinhos {
+  padding: 35px 30px 70px 30px;
+  background-color: #00923f; }
+  .no-gutters .lar-dos-velhinhos h1 {
+    font-size: 63px;
+    color: #fff;
+    margin-bottom: 3.75rem; }
+  .no-gutters .lar-dos-velhinhos p.brazil-on-wheels__text {
+    margin-bottom: 7.8125rem; }
+  .no-gutters .lar-dos-velhinhos a.learn-more-btn {
+    background-color: #fec200;
+    color: #fff;
+    padding: 17px 143px 17px 10px;
+    font-size: 24px; }
+  .no-gutters .lar-dos-velhinhos::after {
+    content: '\25bc';
+    padding-left: 0rem; }
