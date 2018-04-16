@@ -178,3 +178,39 @@ body {
   .no-gutters .lar-dos-velhinhos::after {
     content: '\25bc';
     padding-left: 0rem; }
+
+.no-gutters .stories-border {
+  border: 5px solid #ffffff;
+  background-color: #2f358a; }
+  .no-gutters .stories-border h1 {
+    font-size: 63px;
+    color: #fff;
+    margin-bottom: 3.75rem; }
+  .no-gutters .stories-border p.brazil-on-wheels__text {
+    margin-bottom: 7.8125rem; }
+  .no-gutters .stories-border a.learn-more-btn {
+    background-color: #00923f;
+    color: #fff;
+    padding: 17px 143px 17px 10px;
+    font-size: 24px; }
+  .no-gutters .stories-border::after {
+    content: '\25bc';
+    padding-left: 0rem; }
+
+.no-gutters .lar-dos-velhinhos {
+  padding: 35px 30px 70px 30px;
+  background-color: #00923f; }
+  .no-gutters .lar-dos-velhinhos h1 {
+    font-size: 63px;
+    color: #fff;
+    margin-bottom: 3.75rem; }
+  .no-gutters .lar-dos-velhinhos p.brazil-on-wheels__text {
+    margin-bottom: 7.8125rem; }
+  .no-gutters .lar-dos-velhinhos a.learn-more-btn {
+    background-color: #fec200;
+    color: #fff;
+    padding: 17px 143px 17px 10px;
+    font-size: 24px; }
+  .no-gutters .lar-dos-velhinhos::after {
+    content: '\25bc';
+    padding-left: 0rem; }
