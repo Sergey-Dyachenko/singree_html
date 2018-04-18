@@ -162,25 +162,33 @@ body{
 .no-gutters {
   .stories-border {
     border: 5px solid #ffffff;
-
     background-color: $blue_color;
+    margin-bottom: 1rem;
     h1 {
       font-size: 63px;
       color: $white_color;
-      margin-bottom: 3.75rem;
+      margin-bottom: 1.875rem;
     }
     p.brazil-on-wheels__text {
-      margin-bottom: 7.8125rem;
+      margin-bottom: 1.875rem;
     }
     a.learn-more-btn {
       background-color: $green_color;
       color: #fff;
       padding: 17px 143px 17px 10px;
       font-size: 24px;
+      margin-bottom: 1rem;
     }
     &::after {
       content: '\25bc';
       padding-left: 0rem;
+    }
+
+    .img-box{
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+
     }
 
   }
@@ -210,4 +218,8 @@ body{
 
 
 
+}
+
+.stories-section{
+  background-color: #2f358a;
 }
