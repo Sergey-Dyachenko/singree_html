@@ -223,3 +223,9 @@ body {
 
 .stories-section {
   background-color: #2f358a; }
+
+.ways-to-help-section-block {
+  background-image: url("../img/bg.jpg");
+  height: 800px; }
+  .ways-to-help-section-block .ways-to-help-section-block__title {
+    padding: 100px 0px 80px 0px; }
