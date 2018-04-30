@@ -229,3 +229,12 @@ body {
   height: 800px; }
   .ways-to-help-section-block .ways-to-help-section-block__title {
     padding: 100px 0px 80px 0px; }
+  .ways-to-help-section-block .text-img-block {
+    display: flex;
+    align-items: flex-end;
+    padding: 0px; }
+    .ways-to-help-section-block .text-img-block .text-img-block__text {
+      padding: 25px 0px 30px 10px;
+      background-color: rgba(0, 0, 0, 0.5);
+      width: 100%;
+      margin: 0px; }
