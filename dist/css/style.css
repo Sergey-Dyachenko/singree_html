@@ -70,7 +70,8 @@ nav-block__nav-item {
 body {
   color: #fff;
   background-color: #fff;
-  font-family: "Segoe UI", sans-serif; }
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px; }
 
 @media (min-width: 1430px) {
   .container {
@@ -225,8 +226,7 @@ body {
   background-color: #2f358a; }
 
 .ways-to-help-section-block {
-  background-image: url("../img/bg.jpg");
-  height: 800px; }
+  background-image: url("../img/bg.jpg"); }
   .ways-to-help-section-block .ways-to-help-section-block__title {
     padding: 100px 0px 80px 0px; }
   .ways-to-help-section-block .text-img-block {
@@ -237,4 +237,12 @@ body {
       padding: 25px 0px 30px 10px;
       background-color: rgba(0, 0, 0, 0.5);
       width: 100%;
-      margin: 0px; }
+      margin: 0px;
+      margin-top: 14.5rem; }
+
+.logo-img-block {
+  height: 315px;
+  background-color: #ffffff;
+  display: flex; }
+  .logo-img-block .logo-img-block img {
+    align-self: center; }
